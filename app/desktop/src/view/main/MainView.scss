@@ -1,0 +1,65 @@
+// sass for ModernApp.view.home.MainView
+.mainview {
+    .header {
+        height: 60px;
+        width: 100%;
+        background-color: #ffffff;
+
+        .logo {
+            object-fit: contain;
+            height: 100%;
+            width: 10%;
+            aspect-ratio: 3/2;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            padding: 5px;
+            font-style: bold;
+        }
+    }
+
+    .filters {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border: 1px solid #E3E3E3;
+        border-radius: 8px;
+        margin: 20px;
+        width: 350px;
+        height: 100%;
+        padding: 8px;
+    }
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    width: 250px;
+    height: 450px;
+    margin: 20px;
+
+    .image {
+        width: 100%;
+        height: 75%;
+        background-size: cover;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
+
+    .date {
+        font-family: 'Montserrat', sans-serif;
+        padding: 5px;
+    }
+
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+        font-size: 20px;
+        font-style: normal;
+    }
+}

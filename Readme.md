@@ -1,0 +1,3 @@
+# ModernApp application
+
+moderndesktopminimal template

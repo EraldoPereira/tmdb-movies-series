@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+	<title>ModernApp</title>
+
+  <script type="text/javascript">
+    var Ext = Ext || {};
+    Ext.beforeLoad = function (tags) {
+      var profile;
+      profile = 'desktop';
+      Ext.manifest ='generatedFiles/' + profile;
+    };
+  </script>
+
+  <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+  <script id="microloader" data-app="c7f1c9d3-913f-4bab-9e00-b311ee8304a7" type="text/javascript" src="generatedFiles/bootstrap.js"></script>
+</head>
+  <body></body>
+</html>
