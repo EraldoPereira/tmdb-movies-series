@@ -14,11 +14,11 @@
 
         .title {
             font-family: 'Montserrat', sans-serif;
-            font-weight: 500;
             font-size: 18px;
             padding: 5px;
             font-style: bold;
         }
+
     }
 
     .filters {
@@ -27,39 +27,61 @@
         border: 1px solid #E3E3E3;
         border-radius: 8px;
         margin: 20px;
-        width: 350px;
-        height: 100%;
+        width: 340px;
+        height: 95%;
         padding: 8px;
-    }
-}
 
-.card {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border: 1px solid #E3E3E3;
-    border-radius: 8px;
-    width: 250px;
-    height: 450px;
-    margin: 20px;
+        .data-view {
+            background-color: #fff;
+        }
 
-    .image {
-        width: 100%;
-        height: 75%;
-        background-size: cover;
-        aspect-ratio: 3/2;
-        object-fit: contain;
+        .button {
+            border: 1px solid;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            padding: 5px;
+            font-style: bold;
+        }
     }
 
-    .date {
-        font-family: 'Montserrat', sans-serif;
-        padding: 5px;
-    }
+    .card {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border: 1px solid #E3E3E3;
+        border-radius: 8px;
+        width: 250px;
+        height: 450px;
+        margin: 20px;
 
-    .title {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        padding: 5px;
-        font-size: 20px;
-        font-style: normal;
+        .image {
+            width: 100%;
+            height: 75%;
+            background-size: cover;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        }
+
+        .date {
+            font-family: 'Montserrat', sans-serif;
+            padding: 5px;
+        }
+
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            padding: 5px;
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        .vote {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            padding: 5px;
+            font-style: bold;
+        }
     }
 }

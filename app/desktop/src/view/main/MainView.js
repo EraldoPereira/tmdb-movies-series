@@ -44,11 +44,23 @@ Ext.define("ModernApp.view.main.MainView", {
 				align: "stretch",
 			},
 			items: [
-				{
-					xtype: "filters",
+        {
+          xtype: "filters",
+          // height: 600,
 				},
 				{
-					xtype: "movie",
+          xtype: "container",
+          flex: 1,
+          scrollable: 'y',
+					layout: {
+            type: "vbox",
+						align: "stretch",
+            wrap: true,
+					},
+					items: {
+						xtype: "movie",
+            scrollable: 'y'
+					},
 				},
 			],
 		},

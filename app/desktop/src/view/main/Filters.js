@@ -4,7 +4,13 @@ Ext.define("ModernApp.view.main.Filters", {
 	cls: "filters",
 	items: [
 		{
+			xtype: 'container',
+			cls: 'title',
+			html: 'Genres'
+		},
+		{
 			xtype: "componentdataview",
+			bodyCls: 'data-view',
 			bind: {
 				store: "{genres}",
 
@@ -13,8 +19,10 @@ Ext.define("ModernApp.view.main.Filters", {
 			itemConfig: {
 				viewModel: true,
 				xtype: "button",
+				cls: 'button',
 				ui: "round",
 				margin: "2px",
+				handler: 'onFilterByGenres',
 				bind: {
 					text: "{record.name}",
 
